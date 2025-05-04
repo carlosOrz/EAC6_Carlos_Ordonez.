@@ -1,0 +1,16 @@
+[MESSAGES CONTROL]
+disable=
+    C0103,  # snake_case (X, y, X_PCA)
+    C0114,  # missing-module-docstring
+    C0116,  # missing-function-docstring
+    R1711,  # useless-return
+    R0913,  # too many arguments
+    R0917,  # too many positional arguments
+    W0611,  # unused import
+    W0613,  # unused argument
+    C0412,  # ungrouped-imports
+    C0415,  # import-outside-toplevel
+    W0632   # possible unbalanced tuple unpacking
+
+[FORMAT]
+max-line-length=100

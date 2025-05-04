@@ -1,0 +1,33 @@
+URL del projecte a GitHub  
+https://github.com/usuari/exemple-eac6
+
+Flux de treball per exportar el projecte a GitHub:
+
+1. Crear un nou repositori a GitHub (sense cap fitxer inicial).
+2. Obrir el terminal a la carpeta del projecte local.
+3. Inicialitzar el repositori local amb `git init`.
+4. Afegir tots els fitxers amb `git add .`.
+5. Fer un commit inicial amb `git commit -m "Primera versió del projecte EAC6"`.
+6. Afegir l’URL del repositori remot amb `git remote add origin <url-del-repo>`.
+7. Canviar el nom de la branca a main amb `git branch -M main`.
+8. Fer el push amb `git push -u origin main`.
+
+Comandes per fer el push del projecte a GitHub i explicació:
+
+git init  
+- Inicialitza el repositori Git al directori actual.
+
+git add .  
+- Afegeix tots els fitxers al staging area per preparar el commit.
+
+git commit -m "Primera versió del projecte EAC6"  
+- Registra els canvis en l’historial amb un missatge.
+
+git remote add origin https://github.com/usuari/exemple-eac6.git  
+- Assigna l’URL del repositori remot de GitHub.
+
+git branch -M main  
+- Assegura que la branca principal s’anomena `main`.
+
+git push -u origin main  
+- Puja tot el projecte a GitHub i estableix `main` com la branca per defecte.
