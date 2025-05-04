@@ -1,5 +1,5 @@
 URL del projecte a GitHub  
-https://github.com/usuari/exemple-eac6
+https://github.com/carlosOrz/EAC6_Carlos_Ordonez..git
 
 Flux de treball per exportar el projecte a GitHub:
 
@@ -23,7 +23,7 @@ git add .
 git commit -m "Primera versió del projecte EAC6"  
 - Registra els canvis en l’historial amb un missatge.
 
-git remote add origin https://github.com/usuari/exemple-eac6.git  
+git remote add origin https://github.com/carlosOrz/EAC6_Carlos_Ordonez..git  
 - Assigna l’URL del repositori remot de GitHub.
 
 git branch -M main  
